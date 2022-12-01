@@ -12,3 +12,8 @@ npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
 address on the goerli: 0x377c45A45EF24829cA289Ad76FcdAbCb759Ed898
+
+to fix the hardhat compiling bug, you should execute these command:
+```shell
+npm install --save-dev @nomicfoundation/hardhat-toolbox @nomicfoundation/hardhat-network-helpers @nomicfoundation/hardhat-chai-matchers @nomiclabs/hardhat-ethers @nomiclabs/hardhat-etherscan chai ethers hardhat-gas-reporter solidity-coverage @typechain/hardhat typechain @typechain/ethers-v5 @ethersproject/abi @ethersproject/providers
+```
